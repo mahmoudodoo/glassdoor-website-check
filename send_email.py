@@ -13,7 +13,7 @@ print("date and time =", dt_string)
 
 sender = "mahmoudqudah2123@gmail.com"
 password = "zsfngfcfptsfbxnx"
-recipient = "mahmoudqudah2123@gmail.com"
+recipient = "mahmoudodeh332@gmail.com"
 #password = getpass(f"Hi {sender} Please Enter Your password to send the Email:\n")
 message = MIMEMultipart("mixed")
 message.add_header("Subject", "Glassdoor Website Check")
