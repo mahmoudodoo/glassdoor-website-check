@@ -38,8 +38,9 @@ part = MIMEText(html, "html",'utf-8')
 message.attach(part)
 
 
-smtp = smtplib.SMTP("smtp.gmail.com", 465)
+smtp = smtplib.SMTP('smtp.gmail.com', 587)
 smtp.starttls()
 smtp.login(sender, password)
 smtp.sendmail(sender, recipient, message.as_string())
 smtp.quit()
+print('Mail Sent')
