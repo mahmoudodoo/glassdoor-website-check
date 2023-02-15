@@ -218,4 +218,4 @@ img = open(f"gd_screenshots/{filename}.png", 'rb').read()
 quit_driver(driver)
 
 print("Sending The Email ...")
-os.system("python send_email.py")
+# os.system("python send_email.py")
