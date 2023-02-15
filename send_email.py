@@ -11,8 +11,8 @@ now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 print("date and time =", dt_string)
 
-sender = "mahmoudqudah2123@gmail.com"
-password = "zsfngfcfptsfbxnx"
+sender = "selfstudyjo@gmail.com"
+password = "aflwsfenupnuubtm"
 recipient = "mahmoudodeh332@gmail.com"
 #password = getpass(f"Hi {sender} Please Enter Your password to send the Email:\n")
 message = MIMEMultipart("mixed")
