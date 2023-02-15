@@ -38,7 +38,7 @@ part = MIMEText(html, "html",'utf-8')
 message.attach(part)
 
 
-smtp = smtplib.SMTP("smtp-mail.outlook.com", port=587)
+smtp = smtplib.SMTP("smtp.gmail.com", port=587)
 smtp.starttls()
 smtp.login(sender, password)
 smtp.sendmail(sender, recipient, message.as_string())
